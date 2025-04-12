@@ -4,7 +4,12 @@
 ### 🩺 The Future of Audio Health 
 
 
-"Resonanze" is an AI-driven platform designed to monitor and enhance vocal health for professionals like teachers, singers, and content creators. It provides real-time voice analysis, personalized feedback, and actionable insights to prevent strain and long-term damage. With subscription-based models for healthcare providers and gamified user engagement, Resonanze promotes accessible, scalable vocal care.
+![Voice Analysis Demo](https://res.cloudinary.com/backend-15/image/upload/v1744448408/Screenshot_2025-04-06_104355_ietr1v.png)
+
+**Resonanze** is an AI-driven platform designed to monitor and enhance vocal health for professionals like teachers, singers, and content creators. It provides real-time voice analysis, personalized feedback, and actionable insights to prevent strain and long-term damage. With subscription-based models for healthcare providers and gamified user engagement, Resonanze promotes accessible, scalable vocal care.
+
+
+
 
 
 ## 🤔 Challenges We Aim to Address
@@ -34,6 +39,15 @@
 - **Support for Healthcare Providers**: Tools for remote monitoring and improved diagnosis by ENT specialists.
 - **Ease of Use**: Seamlessly integrates into daily routines with detailed PDF reports for users.
 
+## 🔄 How It Works
+
+🎤 User speaks/upload audio  
+↓  
+🧠 AI analyzes pitch, strain, clarity  
+↓  
+📄 Generates PDF + Insights  
+↓  
+✔️ PDF saved in database with detailed analysis  
 
 ## 🌐 Tech Stack
 
@@ -86,6 +100,27 @@ Start the AI server
 ```
 
 
+
+
+
+## 🚧 Roadmap
+
+- [x] Real-time voice analysis
+- [x] Telegram Bot integration
+- [ ] Mobile app support (React Native)
+- [ ] Specialist dashboard for doctors
+- [ ] Gamified training system
+
+
+
+## 🙌 Acknowledgments
+
+We’d like to thank the following resources and tools that powered Resonanze:
+
+- 🔊 **VGGish by Google** – Used for generating high-quality voice embeddings to analyze vocal features.
+- 🧠 **Groq AI** – Enabled ultra-fast inference for both voice and NLP processing, ensuring real-time feedback and analysis.
+
+- 🤖 **Telegram Bot API** – Allowed seamless interaction by delivering reports and updates directly to users' devices.
 
 
 
