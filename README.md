@@ -1,179 +1,197 @@
+![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
 
 # Resonanze
 
-### 🩺 The Future of Audio Health 
+> 🩺 The Future of Audio Health
+
+---
+
+## 📌 Problem Statement
 
 
-![Voice Analysis Demo](https://res.cloudinary.com/backend-15/image/upload/v1744448408/Screenshot_2025-04-06_104355_ietr1v.png)
+**Problem Statement 1 – Weave AI Magic with Groq**
 
-**Resonanze** is an AI-driven platform designed to monitor and enhance vocal health for professionals like teachers, singers, and content creators. It provides real-time voice analysis, personalized feedback, and actionable insights to prevent strain and long-term damage. With subscription-based models for healthcare providers and gamified user engagement, Resonanze promotes accessible, scalable vocal care.
+---
 
+## 🎯 Objective
 
+- **Deliver real-time voice analysis and personalized feedback** to transform vocal health—think of it as your vocal coach in your pocket, ready to guide you at any moment.
+- **Tackle voice strain like never before** for professionals—teachers, singers, public speakers—ensuring your voice stays strong, clear, and fatigue-free, day in and day out.
+- **Empower healthcare providers** with a subscription-based model, enabling them to effortlessly monitor and assess their patients’ vocal health from anywhere, at any time.
+- **Unlock the perfect balance with our freemium model**, offering basic features for everyday users and premium, advanced options for those who demand the best vocal insights.
+- **Turn vocal health into a game**—our reward-driven engagement system makes checking your voice health fun, motivating, and rewarding, keeping you on track for consistent improvement.
+- **Seamlessly integrate with our Telegram bot** for instant voice analysis and updates, putting real-time reports right at your fingertips—whenever you need them, wherever you are.
 
+---
 
+## 🧠 Team & Approach
 
-## 🤔 Challenges We Aim to Address
+### Team Name:  
+Copy-Paste Devs
 
-
-#### 🔹 **High Voice Strain Among Professionals**
-- Teachers, singers, and public speakers are prone to vocal fatigue and long-term damage.
-
-#### 🔹 **Lack of Preventive Care**
-- No easy-to-use tool exists for continuous vocal health monitoring.
-
-#### 🔹 **No Personalized Feedback System**
-- Absence of AI-driven solutions offering real-time feedback tailored to individual needs.
-
-#### 🔹 **Inefficient Healthcare Support**
-- ENT specialists lack centralized systems for tracking patient vocal health history.
-
-#### 🔹 **Need for Scalable Solutions**
-- Professionals require affordable, accessible tools that integrate into their daily routines.
-## 📒 Features
-
-- **Voice & Audio Health Tracking**: Analyze voice quality, detect strain, and provide actionable insights.
-- **Personalized Feedback & Guidance**: Tailored suggestions for maintaining vocal wellness and preventing fatigue.
-- **Telegram Bot** : Direct access to your report on your fingertips.
-
-- **Engaging Streak-Based System**: Reward-driven features encourage regular health checks.
-- **Support for Healthcare Providers**: Tools for remote monitoring and improved diagnosis by ENT specialists.
-- **Ease of Use**: Seamlessly integrates into daily routines with detailed PDF reports for users.
-
-## 🔄 How It Works
-
-🎤 User speaks/upload audio  
-↓  
-🧠 AI analyzes pitch, strain, clarity  
-↓  
-📄 Generates PDF + Insights  
-↓  
-✔️ PDF saved in database with detailed analysis  
-
-## 🌐 Tech Stack
-
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express, Multer
-
-**AI:** Flask, Langchain, Tensorflow 
+### Team Members:  
+- Lakshay Gupta   
+- Kanik Chawla 
+- Aryaman Agarwal
 
 
-## 👟 Run Locally
+### Your Approach:  
+- **Why you chose this problem:**  
+The idea for Resonanze stemmed from the growing challenges faced by voice professionals such as teachers, singers, and public speakers. These individuals rely heavily on their voices for their careers but lack access to preventive care tools. Many only seek medical attention when issues become severe, leading to long-term vocal damage. We identified a gap in the market for an accessible, AI-driven solution that provides real-time feedback and actionable insights to help users maintain vocal health proactively.
 
-Clone the project
+- **Key challenges you addressed:**  
+We tackled key issues such as detecting and preventing vocal fatigue, bridging the gap caused by the lack of centralized systems for healthcare providers, and developing an affordable, scalable solution suitable for both individual users and professionals.
 
+- **Any pivots, brainstorms, or breakthroughs during hacking:**
+ We integrated a Telegram bot to deliver instant voice reports, enhancing user accessibility. A reward-based engagement system was developed to encourage consistent usage, while our AI algorithms were improved for more accurate vocal health analysis. 
+
+---
+
+## 🛠️ Tech Stack
+
+### Core Technologies Used:
+- Frontend: React, Redux, TailwindCSS
+- Backend: Node, Express
+- Database: MongoDB
+- APIs: Groq, Google
+- Hosting:
+
+### Sponsor Technologies Used (if any):
+- [✅] **Groq:** - Leveraged Groq’s blazing-fast LPU architecture to enable ultra-low latency inference for both voice and NLP tasks. This allowed us to deliver real-time analysis and feedback that feels magical. By decoding voice embeddings on-the-fly, our system doesn’t just hear you — it *understands* you, offering insights that feel almost human.
+
+---
+
+## ✨ Key Features
+
+
+- #### 🌟 Voice & Audio Health Tracking  
+    Not just analysis—this is your personal vocal wellness coach. Our system listens like a pro, detects the subtlest signs of strain, and delivers crystal-clear insights to help professionals protect their most valuable asset—their voice.
+
+- #### 🤖 Personalized Feedback & Guidance  
+    Imagine AI that *knows* your voice. With every sample, we deliver laser-focused guidance on speech clarity, fatigue prevention, and vocal strength—like a vocal therapist in your pocket, available 24/7.
+
+- #### 💬 Telegram Bot for Instant Access  
+    Say goodbye to clunky apps. Our Telegram bot brings cutting-edge vocal health to your fingertips. Just send a voice note and receive an elegant, AI-powered PDF report within seconds. It’s smart, sleek, and seriously effortless.
+
+- #### 🔥 Streak-Based Engagement System  
+    We gamified self-care. Our reward-driven streak system keeps users coming back—not because they have to, but because they *want* to. Because staying healthy should feel as good as hitting a personal best.
+
+
+Add images, GIFs, or screenshots if helpful!
+
+---
+
+## 📽️ Demo & Deliverables
+
+- **Demo Video Link:** [Paste YouTube or Loom link here]  
+- **Pitch Deck / PPT Link:** [Paste Google Slides / PDF link here]  
+
+---
+
+## ✅ Tasks & Bonus Checklist
+
+- [ ] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
+- [ ] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
+- [ ] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
+
+*(Mark with ✅ if completed)*
+
+---
+
+## 🧪 How to Run the Project
+
+### Requirements:
+- Node.js / Bun.
+- API Keys:
+    - MongoDB (Database)
+    - Cloudinary (file storage)
+    - Groq (NLP and Voice processing)
+
+- .env file setup:
+    - Server:
+      - PORT = 
+      - MONGODB_URI = ""
+      -  ACCESS_TOKEN_SECRET = ""
+      -  REFRESH_TOKEN_SECRET = ""
+      -  ACCESS_TOKEN_EXPIRY = ""
+      -  REFRESH_TOKEN_EXPIRY = ""
+    
+    - AI:
+        - SECRET_KEY="" 
+        -  GROQ_API_KEY=""
+        - CLOUDINARY_CLOUD_NAME=""
+        - CLOUDINARY_API_KEY=""
+        - CLOUDINARY_API_SECRET=""
+
+### Local Setup:
 ```bash
-  git clone https://github.com/Lakshay1509/Hackhazard-25
+# Clone the repo
+git clone https://github.com/Lakshay1509/Hackhazard-25
+
+# Install dependencies for server
+cd server
+npm install
+
+# Start development server
+npm run dev
+
+# Install dependencies for client
+cd client
+npm install
+
+# Start development server for client
+npm run dev
+
+# Install dependencies for ai
+cd ai
+pip install -r requirements.txt
+
+# Start development server for ai
+python main.py
+
 ```
 
-Go to the project directory
+---
 
-```bash
-  cd my-project
-```
-
-Install dependencies by going in each directory
+## 🧬 Future Scope
 
 
-```bash
-  npm install
-```
+1. **Advanced AI Algorithms for Deeper Analysis**  
+   Enhance AI capabilities to detect more complex vocal health issues, such as early signs of vocal cord disorders or abnormalities in tone and pitch.
 
-Set the required environment variables
+2. **Integration with Wearable Devices**  
+   Collaborate with wearable tech companies to enable real-time voice monitoring through devices like smartwatches or microphones.
 
-Start the server
+3. **Multilingual Support**  
+   Expand the platform to analyze and provide feedback in multiple languages, catering to a global audience.
 
-```bash
-  npm run start
-```
+4. **Gamification for User Engagement**  
+   Introduce advanced gamified features like leaderboards, challenges, and rewards to further motivate users to maintain vocal health.
 
-Start the client
+5. **Corporate Partnerships**  
+   Collaborate with organizations and institutions (e.g., schools, call centers) to offer Resonanze as a wellness tool for employees.
 
-```bash
-  bun run dev
-```
+6. **Data-Driven Insights for Research**  
+   Provide anonymized data to researchers studying vocal health trends, enabling advancements in voice-related healthcare.
 
-Start the AI server
-
-```bash
-  python main.py
-```
+7. **Ad-Based Revenue Model for Telegram Bot**  
+    Monetize the Telegram bot by integrating non-intrusive ads while keeping the service free for basic users.
 
 
+---
 
-
-
-## 🚧 Roadmap
-
-- [x] Real-time voice analysis
-- [x] Telegram Bot integration
-- [ ] Mobile app support (React Native)
-- [ ] Specialist dashboard for doctors
-- [ ] Gamified training system
-
-
-
-## 🙌 Acknowledgments
+## 📎 Resources / Credits
 
 We’d like to thank the following resources and tools that powered Resonanze:
 
 - 🔊 **VGGish by Google** – Used for generating high-quality voice embeddings to analyze vocal features.
-- 🧠 **Groq AI** – Enabled ultra-fast inference for both voice and NLP processing, ensuring real-time feedback and analysis.
+- 🧠 **Groq API** – Enabled ultra-fast inference for both voice and NLP processing, ensuring real-time feedback and analysis.
 
 - 🤖 **Telegram Bot API** – Allowed seamless interaction by delivering reports and updates directly to users' devices.
+---
 
+## 🏁 Final Words
 
+Share your hackathon journey — challenges, learnings, fun moments, or shout-outs!
 
-## 📂 Folder Structure
-
-<details>
-<summary>Click to view folder structure</summary>
-
-📂 **backend/**  
-├── 📂 **api/**  
-│   ├── 📄 `__init__.py`  
-│   ├── 📄 `routing.py`  
-│   ├── 📄 `utils.py`  
-│  
-├── 📂 **models/**  
-│   ├── 📄 `__init__.py`  
-│   ├── 📄 `model.py`  
-│  
-├── 📂 **static/**  
-│   ├── 📂 **saved_models/**  
-|
-├── 📄 `requirement.txt`  
-├── 📄 `app.py` #flask  
-
-
-
-📂 **frontend/**  
-├── 📂 **public/**  
-│  
-├── 📂 **src/**  
-│   ├── 📂 **components/**  
-│   │   ├── 📄 `Navbar.jsx`  
-│   │   ├── 📄 `Landing3D.jsx`  
-│   │   ├── 📄 `AboutSection.jsx`  
-│   │   ├── 📄 `DiagnoseForm.jsx`  
-│   │   ├── 📄 `Spectrogram.jsx`  
-│   │   ├── 📄 `ExerciseDashboard.jsx`  
-│  
-│   ├── 📂 **pages/**  
-│   │   ├── 📄 `Home.jsx`  
-│   │   ├── 📄 `Diagnose.jsx`  
-│   │   ├── 📄 `Exercises.jsx`  
-│  
-│   ├── 📂 **utils/**  
-│   │   ├── 📄 `api.js`  
-│  
-│   ├── 📂 **styles/**  
-│   │   ├── 📄 `tailwind.css`  
-│  
-│   ├── 📄 `App.jsx`  
-│   ├── 📄 `package.json`  _(Using Vite)_  
-│   ├── 📄 `vite.config.js`  
-
-
-📄 **README.md**
-</details>
+---
