@@ -126,6 +126,9 @@ We’d like to thank the following resources and tools that powered Resonanze:
 
 ## 📂 Folder Structure
 
+<details>
+<summary>Click to view folder structure</summary>
+
 📂 **backend/**  
 ├── 📂 **api/**  
 │   ├── 📄 `__init__.py`  
@@ -173,3 +176,4 @@ We’d like to thank the following resources and tools that powered Resonanze:
 
 
 📄 **README.md**
+</details>
