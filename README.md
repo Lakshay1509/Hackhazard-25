@@ -101,7 +101,7 @@ Add images, GIFs, or screenshots if helpful!
 ## 🧪 How to Run the Project
 
 ### Requirements:
-- Node.js / Bun.
+- Node.js / Bun / Python.
 - API Keys:
     - MongoDB (Database)
     - Cloudinary (file storage)

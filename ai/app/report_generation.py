@@ -216,7 +216,7 @@ class VoicePathologyPDF(FPDF):
         self.set_xy(25, 12)  # Move text rightwards
         self.set_font('Arial', 'B', 20)
         self.set_text_color(*HEADER_COLOR)
-        self.cell(60, 10, 'AudiHealth', 0, 0, 'L')
+        self.cell(60, 10, 'Resonanze', 0, 0, 'L')
 
         # Move to the right for the report title
         self.set_xy(140, 12)  # Adjust for better spacing
@@ -355,6 +355,8 @@ def create_pdf_report(audio_path, prediction, probabilities, report_text, featur
     pdf.add_page()
     pdf.chapter_title('Voice Spectrogram')
     pdf.image('mel_spectrogram.png', x=10, w=190)
+    os.remove('mel_spectrogram.png')  # Clean up the image after adding to PDF
+
 
     pdf.output(output_pdf)
 
