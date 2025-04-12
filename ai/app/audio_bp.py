@@ -119,6 +119,8 @@ def analyze_voice():
                 return jsonify({'error': 'PDF report not generated'}), 500
 
             cloudinary_response = cloudinary.uploader.upload(pdf_path, resource_type="raw")
+            # print("Cloudinary response:", cloudinary_response)  # Debugging line
+
             pdf_url = cloudinary_response.get("secure_url")
             if not pdf_url:
                 return jsonify({'error': 'Failed to upload PDF to Cloudinary'}), 500
@@ -153,6 +155,8 @@ def analyze_voice():
         finally:
             if os.path.exists(filepath):
                 os.remove(filepath)
+            # Keep the PDF file for debugging purposes
+            # Comment out this line
             if os.path.exists(pdf_path):
                 os.remove(pdf_path)
             if os.path.exists("medical_report.json"):

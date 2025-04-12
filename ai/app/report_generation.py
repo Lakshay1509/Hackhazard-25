@@ -3,6 +3,8 @@ import numpy as np
 import tensorflow as tf
 import tensorflow_hub as hub
 import librosa.display
+import matplotlib
+matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from tensorflow.keras.models import load_model
 import librosa
@@ -214,7 +216,7 @@ class VoicePathologyPDF(FPDF):
         self.set_xy(25, 12)  # Move text rightwards
         self.set_font('Arial', 'B', 20)
         self.set_text_color(*HEADER_COLOR)
-        self.cell(60, 10, 'Resonanze', 0, 0, 'L')
+        self.cell(60, 10, 'AudiHealth', 0, 0, 'L')
 
         # Move to the right for the report title
         self.set_xy(140, 12)  # Adjust for better spacing
@@ -358,6 +360,7 @@ def create_pdf_report(audio_path, prediction, probabilities, report_text, featur
 
 def plot_mel_spectrogram(audio_path, output_path='mel_spectrogram.png'):
     y, sr = librosa.load(audio_path)
+    plt.switch_backend('Agg') 
 
     plt.figure(figsize=(12, 8))
 
@@ -368,7 +371,7 @@ def plot_mel_spectrogram(audio_path, output_path='mel_spectrogram.png'):
 
     # Plot mel spectrogram
     plt.subplot(3, 1, 2)
-    D = librosa.amplitude_to_db(librosa.stft(y), ref=np.max)
+    D = librosa.amplitude_to_db(np.abs(librosa.stft(y)), ref=np.max)
     librosa.display.specshow(D, sr=sr, x_axis='time', y_axis='log')
     plt.colorbar(format='%+2.0f dB')
     plt.title('Mel Spectrogram')
@@ -481,5 +484,4 @@ def process_audio(audio_path):
 
 
 # process_audio("Sample_1(vocal polyp).wav")
-
 

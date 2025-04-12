@@ -1,3 +1,6 @@
+from dotenv import load_dotenv
+load_dotenv()
+
 from flask import Flask
 from tensorflow.keras.models import load_model
 from groq import Groq
@@ -10,9 +13,10 @@ client = Groq(api_key=GROQ_API_KEY)
 model_path = "app/lsm_model3"
 model = load_model(model_path)
 
-CLOUDINARY_CLOUD_NAME = os.getenv("CLOUDINARY_CLOUD_NAME") 
+CLOUDINARY_CLOUD_NAME = os.getenv("CLOUDINARY_CLOUD_NAME")
 CLOUDINARY_API_KEY = os.getenv("CLOUDINARY_API_KEY") 
 CLOUDINARY_API_SECRET = os.getenv("CLOUDINARY_API_SECRET") 
+
 
 cloudinary.config(
     cloud_name=CLOUDINARY_CLOUD_NAME,
