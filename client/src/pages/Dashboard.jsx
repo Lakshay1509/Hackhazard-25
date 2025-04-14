@@ -116,7 +116,7 @@ export default function Dashboard() {
               Record Voice <Mic className="ml-2 h-4 w-4" />
             </Button>
           </Link>
-          <Flame className="text-pink-500 h-8 w-8" /><span className="text-2xl font-bold text-pink-800">10</span>
+          {/* <Flame className="text-pink-500 h-8 w-8" /><span className="text-2xl font-bold text-pink-800">10</span> */}
           </div>
         </div>
 
