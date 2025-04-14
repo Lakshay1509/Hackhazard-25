@@ -7,6 +7,8 @@ import path from "path";
 import FormData from "form-data";
 import { aiRoute } from "../constants.js";
 
+
+
 export const chatWithBot = asyncHandler(async (req, res) => {
     const { message } = req.body;
 
@@ -58,7 +60,7 @@ export const diagnose = asyncHandler(async (req, res) => {
         const formData = new FormData();
         formData.append("audio", fs.createReadStream(filePath));
 
-        const flaskResponse = await axios.post("http://127.0.0.1:8080/api/process_audio", formData, {
+        const flaskResponse = await axios.post(`${aiRoute}/api/process_audio`, formData, {
             headers: formData.getHeaders(),
         });
 

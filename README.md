@@ -101,7 +101,7 @@ Add images, GIFs, or screenshots if helpful!
 ## 🧪 How to Run the Project
 
 ### Requirements:
-- Node.js / Bun / Python.
+- Node.js / Bun / Python/ Docker.
 - API Keys:
     - MongoDB (Database)
     - Cloudinary (file storage)
@@ -118,7 +118,7 @@ Add images, GIFs, or screenshots if helpful!
     
     - AI:
         - SECRET_KEY="" 
-        -  GROQ_API_KEY=""
+        - GROQ_API_KEY=""
         - CLOUDINARY_CLOUD_NAME=""
         - CLOUDINARY_API_KEY=""
         - CLOUDINARY_API_SECRET=""
@@ -142,12 +142,13 @@ npm install
 # Start development server for client
 npm run dev
 
-# Install dependencies for ai
-cd ai
-pip install -r requirements.txt
+# Pull docker image for ai
+docker pull mafia15/resonanze:latest
 
-# Start development server for ai
-python main.py
+# Start container in docker desktop
+run the pulled image 
+set environment variables as mentioned above 
+assign port to 8080 
 
 ```
 
