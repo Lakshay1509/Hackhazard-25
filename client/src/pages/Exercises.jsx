@@ -245,7 +245,7 @@ const ExercisesPage = () => {
   const fetchExerciseProgress = async () => {
     try {
       const response = await axios.get(
-        "http://localhost:8000/api/exercises/progress",
+        `${import.meta.env.VITE_BACKEND}/api/exercises/progress`,
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("accessToken")}`,
@@ -287,7 +287,7 @@ const ExercisesPage = () => {
     try {
       // Send the updated exercise progress to the backend
       await axios.post(
-        "http://localhost:8000/api/exercises/track",
+        `${import.meta.env.VITE_BACKEND}/api/exercises/track`,
         { completedExercises: updatedExercises },
         {
           headers: {

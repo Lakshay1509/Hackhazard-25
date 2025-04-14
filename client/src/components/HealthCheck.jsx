@@ -21,7 +21,7 @@ const HealthCheck = () => {
   const fetchReports = async () => {
     setLoadingReports(true);
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/reports", {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND}/api/reports`, {
         method: "GET",
         headers: { Authorization: `Bearer ${localStorage.getItem("accessToken")}` },
         credentials: "include",
@@ -68,7 +68,7 @@ const HealthCheck = () => {
     formData.append("audio", file);
 
     try {
-      const response = await fetch("http://127.0.0.1:8000/api/chat/diagnose", {
+      const response = await fetch(`${import.meta.env.VITE_BACKEND}/api/chat/diagnose`, {
         method: "POST",
         headers: { Authorization: `Bearer ${localStorage.getItem("accessToken")}` },
         body: formData,

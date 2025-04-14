@@ -63,7 +63,7 @@ const AudiBuddy = () => {
       setIsLoading(true);
   
       try {
-        const response = await fetch("http://localhost:8080/api/chat", {
+        const response = await fetch(`${import.meta.env.VITE_API}/api/chat`, {
           method: "POST",
           headers: {
             "Content-Type": "application/json",

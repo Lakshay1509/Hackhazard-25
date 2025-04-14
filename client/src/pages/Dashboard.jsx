@@ -54,7 +54,7 @@ export default function Dashboard() {
 
   const fetchDashboardData = async () => {
     try {
-      const response = await axios.get('http://localhost:8000/api/reports/dashboard-stats', {
+      const response = await axios.get(`${import.meta.env.VITE_BACKEND}/api/reports/dashboard-stats`, {
         headers: { Authorization: `Bearer ${localStorage.getItem("accessToken")}` }
       });
       setDashboardData(response.data.data);

@@ -22,7 +22,7 @@ export const AuthProvider = ({ children }) => {
 
   const refreshToken = async () => {
     try {
-      const response = await axios.post(`${API_URL}/refresh-token`, {}, { withCredentials: true });
+      const response = await axios.post(`${import.meta.env.VITE_BACKEND}/api/users/refresh-token`, {}, { withCredentials: true });
   
       if (response.data.success) {
         localStorage.setItem("accessToken", response.data.accessToken);
@@ -40,7 +40,7 @@ export const AuthProvider = ({ children }) => {
 
   const login = async (credentials) => {
     try {
-      const response = await axios.post(`${API_URL}/login`, credentials, {
+      const response = await axios.post(`${import.meta.env.VITE_BACKEND}/api/users/login`, credentials, {
         withCredentials: true,
         headers: { 'Content-Type': 'application/json' }
       });
@@ -63,7 +63,7 @@ export const AuthProvider = ({ children }) => {
 
   const register = async (userData) => {
     try {
-      const response = await axios.post(`${API_URL}/register`, userData, {
+      const response = await axios.post(`${import.meta.env.VITE_BACKEND}/api/users/register`, userData, {
         withCredentials: true,
         headers: {
           'Content-Type': 'application/json'
