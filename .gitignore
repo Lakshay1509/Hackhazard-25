@@ -5,3 +5,4 @@ server/.env
 ai/.env
 debug.log
 client/.env
+telegram/.venv
