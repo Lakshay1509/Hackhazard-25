@@ -77,20 +77,30 @@ We tackled key issues such as detecting and preventing vocal fatigue, bridging t
     We gamified self-care. Our reward-driven streak system keeps users coming back—not because they have to, but because they *want* to. Because staying healthy should feel as good as hitting a personal best.
 
 
-Add images, GIFs, or screenshots if helpful!
+## Screenshots
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center">
+  <img src="https://res.cloudinary.com/backend-15/image/upload/v1744448408/Screenshot_2025-04-06_104355_ietr1v.png" width="300" height="200" alt="Screenshot 6">
+  <img src="https://res.cloudinary.com/backend-15/image/upload/v1744782926/Screenshot_2025-04-16_111932_s4ednp.png" width="300" height="200" alt="Screenshot 5">
+  <img src="https://res.cloudinary.com/backend-15/image/upload/v1744782926/Screenshot_2025-04-16_111903_awor7c.png" width="300" height="200" alt="Screenshot 4">
+  <img src="https://res.cloudinary.com/backend-15/image/upload/v1744782926/Screenshot_2025-04-16_111953_wgp33s.png" width="300" height="200" alt="Screenshot 3">
+  <img src="https://res.cloudinary.com/backend-15/image/upload/v1744782944/Screenshot_2025-04-16_112030_puvpgs.png" width="300" height="200" alt="Screenshot 2">
+  <img src="https://res.cloudinary.com/backend-15/image/upload/v1744782944/Screenshot_2025-04-16_112149_f59rk1.png" width="300" height="200" alt="Screenshot 1">
+</div>
+
 
 ---
 
 ## 📽️ Demo & Deliverables
 
-- **Demo Video Link:** [Paste YouTube or Loom link here]  
-- **Pitch Deck / PPT Link:** [Paste Google Slides / PDF link here]  
+- **Demo Video Link:** https://youtu.be/gZ_r5Cb6MIA
+- **Pitch Deck / PPT Link:** https://drive.google.com/file/d/1C1lraPV50UjH39YfvHikic1kxpvaF3xI/view?usp=sharing
 
 ---
 
 ## ✅ Tasks & Bonus Checklist
 
-- [ ] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
+- [✅] **All members of the team completed the mandatory task - Followed at least 2 of our social channels and filled the form** (Details in Participant Manual)  
 - [ ] **All members of the team completed Bonus Task 1 - Sharing of Badges and filled the form (2 points)**  (Details in Participant Manual)
 - [ ] **All members of the team completed Bonus Task 2 - Signing up for Sprint.dev and filled the form (3 points)**  (Details in Participant Manual)
 
@@ -193,6 +203,6 @@ We’d like to thank the following resources and tools that powered Resonanze:
 
 ## 🏁 Final Words
 
-Share your hackathon journey — challenges, learnings, fun moments, or shout-outs!
+Participating in **Hackhazard Online Hackathon** was an electrifying journey of creativity and collaboration! We tackled challenges head-on, from debugging to implementing innovative ideas, while learning the importance of teamwork and adaptability. Late-night brainstorming sessions brought a mix of inspiration and laughter, and the support from mentors and organizers was incredible. Hackhazard truly showcased the spirit of innovation!
 
 ---
