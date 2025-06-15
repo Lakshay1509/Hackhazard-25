@@ -1,4 +1,4 @@
-![github-submission-banner](https://github.com/user-attachments/assets/a1493b84-e4e2-456e-a791-ce35ee2bcf2f)
+
 
 # Resonanze
 
@@ -201,8 +201,3 @@ We’d like to thank the following resources and tools that powered Resonanze:
 - 🤖 **Telegram Bot API** – Allowed seamless interaction by delivering reports and updates directly to users' devices.
 ---
 
-## 🏁 Final Words
-
-Participating in **Hackhazard Online Hackathon** was an electrifying journey of creativity and collaboration! We tackled challenges head-on, from debugging to implementing innovative ideas, while learning the importance of teamwork and adaptability. Late-night brainstorming sessions brought a mix of inspiration and laughter, and the support from mentors and organizers was incredible. Hackhazard truly showcased the spirit of innovation!
-
----
