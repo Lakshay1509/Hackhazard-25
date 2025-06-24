@@ -24,17 +24,6 @@
 
 ---
 
-## 🧠 Team & Approach
-
-### Team Name:  
-Copy-Paste Devs
-
-### Team Members:  
-- Lakshay Gupta   
-- Kanik Chawla 
-- Aryaman Agarwal
-
-
 ### Your Approach:  
 - **Why you chose this problem:**  
 The idea for Resonanze stemmed from the growing challenges faced by voice professionals such as teachers, singers, and public speakers. These individuals rely heavily on their voices for their careers but lack access to preventive care tools. Many only seek medical attention when issues become severe, leading to long-term vocal damage. We identified a gap in the market for an accessible, AI-driven solution that provides real-time feedback and actionable insights to help users maintain vocal health proactively.
@@ -55,11 +44,9 @@ We tackled key issues such as detecting and preventing vocal fatigue, bridging t
 - Database: MongoDB
 - APIs: Groq, Google
 - Hosting: Netlify, Azure, Docker
-
-### Sponsor Technologies Used (if any):
-- [✅] **Groq:** - Leveraged Groq’s blazing-fast LPU architecture to enable ultra-low latency inference for both voice and NLP tasks. This allowed us to deliver real-time analysis and feedback that feels magical. By decoding voice embeddings on-the-fly, our system doesn’t just hear you — it *understands* you, offering insights that feel almost human.
-
+- ![diagram (1)](https://github.com/user-attachments/assets/3835d98a-f291-48c0-a504-cd21a31559b3)
 ---
+
 
 ## ✨ Key Features
 
@@ -75,6 +62,8 @@ We tackled key issues such as detecting and preventing vocal fatigue, bridging t
 
 - #### 🔥 Streak-Based Engagement System  
     We gamified self-care. Our reward-driven streak system keeps users coming back—not because they have to, but because they *want* to. Because staying healthy should feel as good as hitting a personal best.
+
+---
 
 
 ## Screenshots
