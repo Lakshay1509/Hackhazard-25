@@ -24,7 +24,7 @@
 
 ---
 
-### Your Approach:  
+### Our Approach:  
 - **Why you chose this problem:**  
 The idea for Resonanze stemmed from the growing challenges faced by voice professionals such as teachers, singers, and public speakers. These individuals rely heavily on their voices for their careers but lack access to preventive care tools. Many only seek medical attention when issues become severe, leading to long-term vocal damage. We identified a gap in the market for an accessible, AI-driven solution that provides real-time feedback and actionable insights to help users maintain vocal health proactively.
 
